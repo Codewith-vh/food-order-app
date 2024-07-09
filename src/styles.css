@@ -1,0 +1,141 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: 12vh;
+  border-radius: 12vh;
+}
+.nav-items {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.header > .nav-items > li {
+  margin: 2vh;
+}
+.link-tag {
+  text-decoration: none;
+  color: white;
+
+  border: 0.02em solid white;
+
+  padding: 0.5em;
+  border-radius: 5px;
+  background-color: #80461b;
+}
+.link-tag:hover {
+  color: #80461b;
+
+  border: 0.02em solid #80461b;
+  background-color: white;
+}
+
+/**************************************************************************/
+
+.food-card {
+  width: 25%;
+  text-align: left;
+  margin: 2%;
+}
+.food-card > .food-card-img {
+  width: 100%;
+  height: 30%;
+  padding: 3px;
+}
+.food-card:hover {
+  border: 1px solid rgb(7, 7, 7);
+}
+
+.restroCard-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.food-card > .text-in-card {
+  color: antiquewhite;
+}
+/**************************************************************************/
+.shimmer-food-card {
+  width: 25%;
+  text-align: left;
+  margin: 2%;
+}
+.shimmer-food-card > .shimmer-food-card-img {
+  width: 100%;
+  height: 30%;
+  padding: 3px;
+  background-color: rgb(191, 196, 196);
+}
+.food-card:hover {
+  border: 1px solid rgb(7, 7, 7);
+}
+
+.restroCard-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.shimmer-body {
+  display: flex;
+  flex-wrap: wrap;
+}
+/**************************************************************************/
+.menu-header-style {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px dashed hsl(190, 9%, 87%);
+}
+
+.rating-box {
+  font-size: 1.4em;
+  text-align: center;
+}
+.link-name {
+  text-decoration: none;
+  margin: 1.2em;
+}
+/**************************************************************************/
+
+.coupon {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.7em;
+}
+.coupon-code {
+  border: 1px solid hsl(190, 9%, 87%);
+  margin: 1em;
+  padding: 1em;
+  border-radius: 1em;
+}
+/**************************************************************************/
+.category-heading {
+  text-align: left;
+  margin-top: 0.5em;
+  color: hwb(30 33% 67%);
+}
+.empty-block {
+  background-color: hsl(60, 7%, 84%);
+}
+.itemContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5em;
+  border-bottom: solid 1px hsl(0, 12%, 80%);
+}
+.itemContainer > .desc-design {
+  text-align: left;
+}
+.itemContainer > .desc-design > .desc-item {
+  font-size: small;
+}
+.itemContainer > .item-img {
+  margin-bottom: 1em;
+}
+.itemContainer > .item-img > .img-design {
+  height: 10em;
+  width: 10em;
+  border-radius: 5%;
+}
